@@ -47,6 +47,57 @@ This appears to be developed for industrial PLC systems, likely using:
 - XML configuration management
 - Component-based architecture
 
+## Coding Standards
+
+### File Structure
+- **Structured Text Files (.st)**: All logic should be converted to .st files for version control and cross-tool compatibility
+- **Naming Convention**: Use PascalCase for programs/function blocks, snake_case for internal variables
+- **File Location**: Place .st conversions alongside their XML counterparts with same base name
+
+### Code Organization
+1. **Program Structure**:
+   ```iec-st
+   PROGRAM ProgramName
+   VAR_INPUT
+       // Input parameters
+   END_VAR
+   VAR
+       // Internal variables
+   END_VAR
+   // Network comments describe logic blocks
+   // Network 1: Description
+   IF condition THEN
+       // Logic here
+   END_IF;
+   END_PROGRAM
+   ```
+
+2. **Global Variable Lists (GVL)**:
+   - Group related variables in GVL files
+   - Use dot notation for hierarchical organization (e.g., `Settings.Agitator.Enable`)
+   - Maintain consistent naming across modules
+
+3. **Comments**:
+   - Use `// Network N:` to denote logical sections
+   - Document state machines and sequences clearly
+   - Explain non-obvious timer values and constants
+
+4. **Data Types**:
+   - Define custom types in separate .st files
+   - Use TIME literals (T#10S, T#2M) for durations
+   - Use BOOL, INT, REAL for standard types
+
+5. **Settings Organization**:
+   - Centralize configuration in Settings GVL
+   - Group by component (Agitator, Bagger, Door, etc.)
+   - Include defaults in Admin program
+
+### Conversion Guidelines
+- XML sequences → State machine implementations in ST
+- Ladder logic → IF/THEN/ELSE statements
+- Function blocks → PROGRAM or FUNCTION_BLOCK in ST
+- Maintain I/O mappings in dedicated GVL files
+
 ## Safety
 
 
