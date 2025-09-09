@@ -1,0 +1,1133 @@
+<ExportFile>
+  <StructuredView Guid="{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}">
+<Single xml:space="preserve" Type="{3daac5e4-660e-42e4-9cea-3711b98bfb63}" Method="IArchivable">
+  <Null Name="Profile" />
+  <List2 Name="EntryList">
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">True</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">77b7f606-2006-4b1a-9ef4-d74c75d1dfd2</Single>
+        <Single Name="ParentGuid" Type="System.Guid">9b280665-8d53-4807-82ac-923441df304e</Single>
+        <Single Name="Name" Type="string">Admin</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">25e509de-33d4-4447-93f8-c9e4ea381c8b</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">0</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{25e509de-33d4-4447-93f8-c9e4ea381c8b}" Method="IArchivable">
+          <Single Name="NetworkListComment" Type="string"></Single>
+          <Single Name="DefaultViewMode" Type="string">Ld</Single>
+          <List2 Name="NetworkList">
+            <Single Type="{d9a99d73-b633-47db-b876-a752acb25871}" Method="IArchivable">
+              <Single Name="ILActive" Type="bool">False</Single>
+              <Single Name="FBDValid" Type="bool">False</Single>
+              <Single Name="ILValid" Type="bool">False</Single>
+              <List2 Name="ILLines" />
+              <Single Name="Comment" Type="string"></Single>
+              <Single Name="Title" Type="string"></Single>
+              <Single Name="Label" Type="string"></Single>
+              <Single Name="OutCommented" Type="bool">False</Single>
+              <List2 Name="NetworkItems">
+                <Single Type="{acfc6f68-8e3a-4af5-bf81-3dd512095a46}" Method="IArchivable">
+                  <Single Name="BoxType" Type="string">EXECUTE</Single>
+                  <Single Name="Instance" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                    <Null Name="Operand" />
+                    <Single Name="Type" Type="string"></Single>
+                    <Single Name="Comment" Type="string"></Single>
+                    <Single Name="SymbolComment" Type="string"></Single>
+                    <Single Name="Address" Type="string"></Single>
+                    <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                      <Single Name="Flags" Type="int">0</Single>
+                      <Single Name="Fixed" Type="bool">False</Single>
+                      <Single Name="Extensible" Type="bool">False</Single>
+                    </Single>
+                    <Single Name="LValue" Type="bool">False</Single>
+                    <Single Name="Boolean" Type="bool">False</Single>
+                    <Single Name="IsInstance" Type="bool">True</Single>
+                    <Single Name="Id" Type="long">8539</Single>
+                  </Single>
+                  <Single Name="OutputItems" Type="{f40d3e09-c02c-4522-a88c-dac23558cfc4}" Method="IArchivable">
+                    <List2 Name="OutputItems">
+                      <Null />
+                    </List2>
+                  </Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">True</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Null Name="InputFlags" />
+                  <List2 Name="InputItems">
+                    <Single Type="{acfc6f68-8e3a-4af5-bf81-3dd512095a46}" Method="IArchivable">
+                      <Single Name="BoxType" Type="string">OR</Single>
+                      <Single Name="Instance" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                        <Null Name="Operand" />
+                        <Single Name="Type" Type="string"></Single>
+                        <Single Name="Comment" Type="string"></Single>
+                        <Single Name="SymbolComment" Type="string"></Single>
+                        <Single Name="Address" Type="string"></Single>
+                        <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                          <Single Name="Flags" Type="int">0</Single>
+                          <Single Name="Fixed" Type="bool">False</Single>
+                          <Single Name="Extensible" Type="bool">False</Single>
+                        </Single>
+                        <Single Name="LValue" Type="bool">False</Single>
+                        <Single Name="Boolean" Type="bool">False</Single>
+                        <Single Name="IsInstance" Type="bool">True</Single>
+                        <Single Name="Id" Type="long">2601</Single>
+                      </Single>
+                      <Single Name="OutputItems" Type="{f40d3e09-c02c-4522-a88c-dac23558cfc4}" Method="IArchivable">
+                        <List2 Name="OutputItems" />
+                      </Single>
+                      <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                        <Single Name="Flags" Type="int">0</Single>
+                        <Single Name="Fixed" Type="bool">False</Single>
+                        <Single Name="Extensible" Type="bool">False</Single>
+                      </Single>
+                      <Null Name="InputFlags" />
+                      <List2 Name="InputItems">
+                        <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                          <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                            <Single Name="Operand" Type="string">LoadDefaults</Single>
+                            <Single Name="Type" Type="string">BOOL</Single>
+                            <Single Name="Comment" Type="string"></Single>
+                            <Single Name="SymbolComment" Type="string"></Single>
+                            <Single Name="Address" Type="string"></Single>
+                            <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                              <Single Name="Flags" Type="int">16</Single>
+                              <Single Name="Fixed" Type="bool">True</Single>
+                              <Single Name="Extensible" Type="bool">False</Single>
+                            </Single>
+                            <Single Name="LValue" Type="bool">False</Single>
+                            <Single Name="Boolean" Type="bool">True</Single>
+                            <Single Name="IsInstance" Type="bool">False</Single>
+                            <Single Name="Id" Type="long">9</Single>
+                          </Single>
+                          <Single Name="Id" Type="long">8</Single>
+                        </Single>
+                        <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                          <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                            <Single Name="Operand" Type="string">Settings.Retained</Single>
+                            <Single Name="Type" Type="string">BOOL</Single>
+                            <Single Name="Comment" Type="string"></Single>
+                            <Single Name="SymbolComment" Type="string"></Single>
+                            <Single Name="Address" Type="string"></Single>
+                            <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                              <Single Name="Flags" Type="int">1</Single>
+                              <Single Name="Fixed" Type="bool">True</Single>
+                              <Single Name="Extensible" Type="bool">False</Single>
+                            </Single>
+                            <Single Name="LValue" Type="bool">False</Single>
+                            <Single Name="Boolean" Type="bool">True</Single>
+                            <Single Name="IsInstance" Type="bool">False</Single>
+                            <Single Name="Id" Type="long">2604</Single>
+                          </Single>
+                          <Single Name="Id" Type="long">2603</Single>
+                        </Single>
+                      </List2>
+                      <Single Name="InputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+                        <List2 Name="Names" />
+                        <List2 Name="Types" />
+                      </Single>
+                      <Single Name="OutputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+                        <List2 Name="Names" />
+                        <List2 Name="Types" />
+                      </Single>
+                      <Single Name="CallType" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">Or</Single>
+                      <Null Name="EN" />
+                      <Null Name="ENO" />
+                      <Null Name="STSnippet" />
+                      <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+                      <Single Name="ProvidesSTSnippet" Type="bool">False</Single>
+                      <Single Name="Id" Type="long">2602</Single>
+                    </Single>
+                  </List2>
+                  <Single Name="InputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+                    <List2 Name="Names">
+                      <Single Type="string">EN</Single>
+                    </List2>
+                    <List2 Name="Types">
+                      <Single Type="string">BOOL</Single>
+                    </List2>
+                  </Single>
+                  <Single Name="OutputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+                    <List2 Name="Names">
+                      <Single Type="string">ENO</Single>
+                    </List2>
+                    <List2 Name="Types">
+                      <Single Type="string">BOOL</Single>
+                    </List2>
+                  </Single>
+                  <Single Name="CallType" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">None</Single>
+                  <Single Name="EN" Type="bool">True</Single>
+                  <Single Name="ENO" Type="bool">True</Single>
+                  <Single Name="STSnippet" Type="{b2131366-6917-4304-87a9-64c0585560a8}" Method="IArchivable">
+                    <Single Name="STSnippet" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+                      <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+                        <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8675</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Agitator.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8676</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Agitator.AutoAgitate := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8677</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Agitator.ReverseTime := T#10S;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8678</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Agitator.DwellTime := T#3S;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8679</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Agitator.ForwardTime := T#2S;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8680</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Agitator.IdleTime := T#15M;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8681</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8682</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstAdvance.Steps := 3600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8683</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstAdvance.Direction := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8684</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstAdvance.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8685</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstRetract.Steps := 600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8686</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstRetract.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8687</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstRetract.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8688</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryAdvance.Steps := 600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8689</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryAdvance.Direction := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8690</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryAdvance.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8691</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryRetract.Steps := 600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8692</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryRetract.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8693</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryRetract.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8694</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.TearRetract.Steps := 300;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8695</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.TearRetract.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8696</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.TearRetract.Speed := 300;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8697</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.ResetBag.Steps := 1000;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8698</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.ResetBag.Direction := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8699</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.ResetBag.Speed := 100;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8700</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetractOneBag.Steps := 3200;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8701</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetractOneBag.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8702</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetractOneBag.Speed := 300;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8703</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.MaxBagOpenRetries := 5;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8704</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.MaxBagRetries := 3;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8705</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8706</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Door.ManualUnlock := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8707</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Door.AutoDoorLock := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8708</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Door.IgnoreKicker := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8709</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Door.CheckLockDelay := T#1S;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8710</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8711</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Heater.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8712</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Heater.MinTemp := 70.0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8713</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Heater.LowPoint := 75.0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8714</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Heater.SetPoint := 80.0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8715</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Heater.MaxTemp := 100.0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8716</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Heater.Timeout := T#3M;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8717</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Heater.ResetTimeout := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8718</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8719</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSeal.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8720</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSeal.SealingTime := T#3S;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8721</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8722</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Hopper.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8723</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8724</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.IceFeed.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8725</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.IceFeed.MaxFeedTime := T#10S;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8726</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.IceFeed.TopOffTime := T#2S;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8727</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8728</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.IceMaker.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8729</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.IceMaker.MakeIceTimeout := T#2H;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8730</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8731</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Kicker.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8732</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8733</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">// Motors</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8734</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.AgitatorMotor.Override := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8735</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.AgitatorMotor.OverrideMotor := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8736</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.AgitatorMotor.OverrideReverse := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8737</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.AgitatorMotor.Speed := 50;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8738</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8739</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.Enable := TRUE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8740</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.InputFunction := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8741</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.CounterLimit := 30;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8742</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.RateTime := 1000;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8743</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.RateChannel := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8744</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.Speed := 50;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8745</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">//Settings.BagFeedMotor.GearRatio := 200;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8746</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">//Settings.BagFeedMotor.PPR := 30;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8747</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.MaxRPM := 4000;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8748</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.CounterCommand := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8749</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.KP := 12;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8750</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.TN := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8751</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.TV := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8752</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.Y_MIN := 30;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8753</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFeedMotor.Y_MAX := 1000;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8754</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">//Settings.BagFeedMotor.BagLengthPulses := 3000;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8755</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8756</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BlowerMotor.Override := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8757</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BlowerMotor.OverrideMotor := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8758</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8759</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealMotor.Override := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8760</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealMotor.OverrideMotor := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8761</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealMotor.OverrideReverse := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8762</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealMotor.OverrideBrake := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8763</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8764</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.IceFeedMotor.Override := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8765</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.IceFeedMotor.OverrideMotor := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8766</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8767</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerMotor.Override := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8768</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerMotor.OverrideMotor := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8769</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerMotor.OverrideBrake := FALSE;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8770</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8771</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">// Sensors</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8772</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFullSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8773</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagFullSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8774</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8775</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagLabelSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8776</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagLabelSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8777</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8778</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagOpenSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8779</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.BagOpenSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8780</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8781</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.DoorClosedSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8782</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.DoorClosedSensor.OnDelay := T#250MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8783</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8784</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.DoorLockedSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8785</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.DoorLockedSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8786</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8787</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealClosedSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8788</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealClosedSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8789</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8790</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealOpenSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8791</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HeatSealOpenSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8792</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8793</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HopperMaximumSensor.OffDelay := T#1000MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8794</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HopperMaximumSensor.OnDelay := T#500MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8795</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8796</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HopperMinimumSensor.OffDelay := T#1000MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8797</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.HopperMinimumSensor.OnDelay := T#500MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8798</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8799</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerBlockedSensor.OffDelay := T#1000MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8800</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerBlockedSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8801</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8802</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerDownSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8803</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerDownSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8804</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8805</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerUpSensor.OffDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8806</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.KickerUpSensor.OnDelay := T#0MS;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8807</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string"></Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">8405</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Retained := TRUE;</Single>
+                          </Single>
+                        </Array>
+                      </Single>
+                    </Single>
+                    <Single Name="Id" Type="long">8673</Single>
+                  </Single>
+                  <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+                  <Single Name="ProvidesSTSnippet" Type="bool">True</Single>
+                  <Single Name="Id" Type="long">8674</Single>
+                </Single>
+              </List2>
+              <List2 Name="Connectors" />
+              <Single Name="Id" Type="long">5</Single>
+            </Single>
+            <Single Type="{d9a99d73-b633-47db-b876-a752acb25871}" Method="IArchivable">
+              <Single Name="ILActive" Type="bool">False</Single>
+              <Single Name="FBDValid" Type="bool">False</Single>
+              <Single Name="ILValid" Type="bool">False</Single>
+              <List2 Name="ILLines" />
+              <Single Name="Comment" Type="string"></Single>
+              <Single Name="Title" Type="string"></Single>
+              <Single Name="Label" Type="string"></Single>
+              <Single Name="OutCommented" Type="bool">False</Single>
+              <List2 Name="NetworkItems">
+                <Single Type="{acfc6f68-8e3a-4af5-bf81-3dd512095a46}" Method="IArchivable">
+                  <Single Name="BoxType" Type="string">EXECUTE</Single>
+                  <Single Name="Instance" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                    <Null Name="Operand" />
+                    <Single Name="Type" Type="string"></Single>
+                    <Single Name="Comment" Type="string"></Single>
+                    <Single Name="SymbolComment" Type="string"></Single>
+                    <Single Name="Address" Type="string"></Single>
+                    <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                      <Single Name="Flags" Type="int">0</Single>
+                      <Single Name="Fixed" Type="bool">False</Single>
+                      <Single Name="Extensible" Type="bool">False</Single>
+                    </Single>
+                    <Single Name="LValue" Type="bool">False</Single>
+                    <Single Name="Boolean" Type="bool">False</Single>
+                    <Single Name="IsInstance" Type="bool">True</Single>
+                    <Single Name="Id" Type="long">9110</Single>
+                  </Single>
+                  <Single Name="OutputItems" Type="{f40d3e09-c02c-4522-a88c-dac23558cfc4}" Method="IArchivable">
+                    <List2 Name="OutputItems">
+                      <Null />
+                    </List2>
+                  </Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">True</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Null Name="InputFlags" />
+                  <List2 Name="InputItems">
+                    <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                      <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                        <Single Name="Operand" Type="string">_ResetBaggerSettings</Single>
+                        <Single Name="Type" Type="string">BOOL</Single>
+                        <Single Name="Comment" Type="string"></Single>
+                        <Single Name="SymbolComment" Type="string"></Single>
+                        <Single Name="Address" Type="string"></Single>
+                        <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                          <Single Name="Flags" Type="int">16</Single>
+                          <Single Name="Fixed" Type="bool">True</Single>
+                          <Single Name="Extensible" Type="bool">False</Single>
+                        </Single>
+                        <Single Name="LValue" Type="bool">False</Single>
+                        <Single Name="Boolean" Type="bool">True</Single>
+                        <Single Name="IsInstance" Type="bool">False</Single>
+                        <Single Name="Id" Type="long">8948</Single>
+                      </Single>
+                      <Single Name="Id" Type="long">8947</Single>
+                    </Single>
+                  </List2>
+                  <Single Name="InputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+                    <List2 Name="Names">
+                      <Single Type="string">EN</Single>
+                    </List2>
+                    <List2 Name="Types">
+                      <Single Type="string">BOOL</Single>
+                    </List2>
+                  </Single>
+                  <Single Name="OutputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+                    <List2 Name="Names">
+                      <Single Type="string">ENO</Single>
+                    </List2>
+                    <List2 Name="Types">
+                      <Single Type="string">BOOL</Single>
+                    </List2>
+                  </Single>
+                  <Single Name="CallType" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">None</Single>
+                  <Single Name="EN" Type="bool">True</Single>
+                  <Single Name="ENO" Type="bool">True</Single>
+                  <Single Name="STSnippet" Type="{b2131366-6917-4304-87a9-64c0585560a8}" Method="IArchivable">
+                    <Single Name="STSnippet" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+                      <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+                        <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9111</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstAdvance.Steps := 3600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9112</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstAdvance.Direction := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9113</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstAdvance.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9114</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstRetract.Steps := 600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9115</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstRetract.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9116</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.FirstRetract.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9117</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryAdvance.Steps := 600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9118</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryAdvance.Direction := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9119</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryAdvance.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9120</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryRetract.Steps := 600;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9121</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryRetract.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9122</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetryRetract.Speed := 500;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9123</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.TearRetract.Steps := 300;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9124</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.TearRetract.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9125</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.TearRetract.Speed := 300;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9126</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.ResetBag.Steps := 1000;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9127</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.ResetBag.Direction := 1;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9128</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.ResetBag.Speed := 100;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9129</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetractOneBag.Steps := 3200;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9130</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetractOneBag.Direction := 0;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9131</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.RetractOneBag.Speed := 300;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9132</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.MaxBagOpenRetries := 5;</Single>
+                          </Single>
+                          <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                            <Single Name="Id" Type="long">9087</Single>
+                            <Null Name="Tag" />
+                            <Single Name="Text" Type="string">Settings.Bagger.MaxBagRetries := 3;</Single>
+                          </Single>
+                        </Array>
+                      </Single>
+                    </Single>
+                    <Single Name="Id" Type="long">9133</Single>
+                  </Single>
+                  <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+                  <Single Name="ProvidesSTSnippet" Type="bool">True</Single>
+                  <Single Name="Id" Type="long">9134</Single>
+                </Single>
+              </List2>
+              <List2 Name="Connectors" />
+              <Single Name="Id" Type="long">8808</Single>
+            </Single>
+          </List2>
+          <Single Name="BranchCounter" Type="int">0</Single>
+          <Single Name="ValidIds" Type="bool">True</Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">2</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">PROGRAM Admin</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">3</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_INPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LoadDefaults: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">8951</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">8952</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	_ResetBaggerSettings: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">8953</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">9134</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">9b280665-8d53-4807-82ac-923441df304e</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+  </List2>
+  <Null Name="ProfileName" />
+</Single>  </StructuredView>
+</ExportFile>

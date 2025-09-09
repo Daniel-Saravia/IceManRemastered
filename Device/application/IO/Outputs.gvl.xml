@@ -1,0 +1,353 @@
+<ExportFile>
+  <StructuredView Guid="{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}">
+<Single xml:space="preserve" Type="{3daac5e4-660e-42e4-9cea-3711b98bfb63}" Method="IArchivable">
+  <Null Name="Profile" />
+  <List2 Name="EntryList">
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">True</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">a8edb361-5548-4512-9a37-fd45461c0e8d</Single>
+        <Single Name="ParentGuid" Type="System.Guid">9b280665-8d53-4807-82ac-923441df304e</Single>
+        <Single Name="Name" Type="string">Outputs</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">24568a24-c491-472c-a21f-ee5d33859fab</Single>
+            </Key>
+            <Value>
+              <Single Type="{24568a24-c491-472c-a21f-ee5d33859fab}" Method="IArchivable">
+                <Single Name="MemoryReserveForOnlineChange" Type="int">0</Single>
+                <Single Name="ExcludeFromBuild" Type="bool">False</Single>
+                <Single Name="External" Type="bool">False</Single>
+                <Single Name="EnableSystemCall" Type="bool">False</Single>
+                <Single Name="CompilerDefines" Type="string"></Single>
+                <Single Name="LinkAlways" Type="bool">True</Single>
+                <Array Name="Undefines" Type="string" />
+              </Single>
+            </Value>
+          </Entry>
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">b27a8a4d-1d32-442e-ad1e-065284e974c5</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">ffbfa93a-b94d-45fc-a329-229860183b1d</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">0</Single>
+      </Single>
+      <Single Name="Object" Type="{ffbfa93a-b94d-45fc-a329-229860183b1d}" Method="IArchivable">
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">121</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">{attribute 'qualified_only'}</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">122</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_GLOBAL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">213</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Outputs is a Global Variable List object to reference all PLC outputs</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">123</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">236</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">124</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Digital Outputs</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">219</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// All new digital outputs designations are on the Weintek iR-ETN40R either Bank I Outputs or Bank II Outputs.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">220</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// The former output designations are in parentheses based on the original </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">218</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Unitronics PLC labeled either N3 or N4 with a pin location and Output #.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">221</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">217</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// iR-ETN40R Output Bank I</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">214</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Output								Function										Physical Location (Former)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">144</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	AgitatorMotor: 		BOOL;				// Agitator motor output (to VFD). 				I-OUT0	(N3-OUT20)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">148</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	AgitatorReverse: 	BOOL;				// Agitator motor reverse output (to VFD). 		I-OUT1	(N3-OUT19)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">153</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedMotor: 		BOOL;				// Bag feed motor output (to stepper motor). 	I-OUT2	(N3-OUT18)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">157</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedReverse: 	BOOL;				// Bag feed motor reverse output (to stepper). 	I-OUT3	(N3-OUT17)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">160</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedAlarmReset: 	BOOL;				// Reset bag feed motor alarm. 					I-OUT4 	(N3-OUT16)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">165</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BlowerMotor: 		BOOL;				// Bag open blower motor output. 				I-OUT5 	(N3-OUT6)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">169</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DoorLock: 			BOOL;				// Door lock output. 							I-OUT6 	(N3-OUT21)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">173</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	Heater: 			BOOL;				// Heating element output. 						I-OUT7 	(N4-OUT10)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">215</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">222</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// iR-ETN40R Output Bank II</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">216</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Output								Function										Physical Location (Former)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">176</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	HeatSealReverse: 	BOOL;				// Heat seal motor reverse output. 				II-OUT0 (N4-OUT5)							</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">181</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	HeatSealBrake: 		BOOL;				// Heat seal motor brake output. 				II-OUT1 (N4-OUT3)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">185</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	HeatSealMotor: 		BOOL;				// Heat seal motor output. 						II-OUT2 (N4-OUT4)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">189</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IceFeedMotor: 		BOOL;				// Ice feed auger output. 						II-OUT3 (N4-OUT11)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">193</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	KickerMotor: 		BOOL;				// Kicker motor output. 						II-OUT4 (N4-OUT13)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">197</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	KickerBrake: 		BOOL;				// Kicker motor brake output. 					II-OUT5 (N4-OUT12)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">200</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MakeIce: 			BOOL;				// Signal to ice maker to make ice. 			II-OUT6 (N4-OUT22)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">223</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// 										// Not Connected								II-OUT7</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">201</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">224</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">202</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Analog Outputs</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">225</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// The following outputs are located on the iR-AM06-VI analog I/O module.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">226</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Output								Function										Physical Location (Former)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">203</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	AgitatorMotorSpeed: UINT;				// Agitator motor output speed.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">204</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedMotorSpeed: 	UINT;				// Bag feed motor output speed.					OUT0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">206</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">227</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">207</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Register Values</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">228</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// The following outputs are Modbus registers written over the Modbus TCP/IP Connection with the iR-ETN40R Coupler.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">229</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Output								Function</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">208</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedMotorCounterLimit:   UDINT;		// The counter limit sets the maximum value for the Count Value</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">231</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//										   The counter limit is written to 0x0FB4 &amp; 0x0FB5 as 2 Words (4 Bytes)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">209</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedMotorRateChannel:    UINT;		// The rate channel is set to 1</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">232</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//										   The rate channel is written to 0x0FBD as 1 Word (2 Bytes)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">210</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedMotorRateTime:       UINT;		// The rate time is set to 1000milliseconds</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">233</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//										   The rate time is written to 0x0FBC as 1 Word (2 Bytes)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">211</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedMotorInputFunction:  UINT;		// The input function is set to 1 to enable simple pulse counting</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">234</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//										   The input function is written to 0x0FCC as 1 Word (2 Bytes)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">212</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BagFeedMotorCounterCommand: UINT;		// The counter command is set to 0 to keep counting, 1 to stop counting, and 2 to clear count</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">235</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//										   The counter command is written to 0x0FAC as 1 Word (2 Bytes)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">205</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Null Name="NetVarProperties" />
+        <Single Name="ParameterList" Type="bool">False</Single>
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">b27a8a4d-1d32-442e-ad1e-065284e974c5</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">IO</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+  </List2>
+  <Null Name="ProfileName" />
+</Single>  </StructuredView>
+</ExportFile>
