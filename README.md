@@ -1,4 +1,4 @@
-# IceMan Remastered
+# IceMan Remastered CODESYS PROJECT
 
 An industrial ice bagging machine control system built with PLC automation components.
 
@@ -48,5 +48,6 @@ This appears to be developed for industrial PLC systems, likely using:
 - Component-based architecture
 
 ## Safety
+
 
 ⚠️ **Industrial Equipment Warning**: This system controls industrial machinery. Proper safety procedures and qualified personnel are required for installation and operation.
